@@ -4,7 +4,7 @@ import "./Display.css";
 class Display extends Component {
     render(){
         return(
-            <div className="Display">
+            <div className = "Display">
                 {this.props.data}
             </div>
         );
